@@ -29,3 +29,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - ReactJS (TypeSdript)
 - Redux (Redux Toolkit): Redux toolkit support redux-thunk by default
 - Material UI
+
+## Demo
+
+**Desktop:**
+
+https://user-images.githubusercontent.com/31366174/220428991-cf1170a1-d65d-4b54-b8a3-55ff30685c28.mov
+
+**Mobile:**
+
+https://user-images.githubusercontent.com/31366174/220429160-dcabe9c1-06a4-4e2e-9fa5-8a2e69496686.mov
