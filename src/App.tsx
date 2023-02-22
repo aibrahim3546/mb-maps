@@ -65,7 +65,7 @@ const App = () => {
     googleApi.setMarker(placeId, result[0].geometry.location)
   }
 
-  const onClickHistory = (place: IPlace) => {
+  const onClickHistoryPlace = (place: IPlace) => {
     fetchGeoLocation(place.place_id)
   }
 
@@ -106,7 +106,7 @@ const App = () => {
               <List>
                 {placesHistory.map((place) => (
                   <ListItem disablePadding divider key={place.place_id}>
-                    <ListItemButton onClick={() => onClickHistory(place)}>
+                    <ListItemButton onClick={() => onClickHistoryPlace(place)}>
                       <ListItemText primary={place.description} />
                     </ListItemButton>
                   </ListItem>
